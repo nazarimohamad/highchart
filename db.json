@@ -1,0 +1,190 @@
+{
+  "human-resource": [
+    {
+      "status": "زن",
+      "minAge": 1,
+      "maxAge": 2,
+      "id": 1
+    }
+  ],
+  "fee-value": [
+    {
+      "feeValue": 21,
+      "id": 1
+    },
+    {
+      "feeValue": 333,
+      "id": 2
+    }
+  ],
+  "address": [
+    {
+      "address": "ارم",
+      "lat": null,
+      "long": null,
+      "id": 1
+    },
+    {
+      "address": "شهرک گلستان",
+      "lat": null,
+      "long": null,
+      "id": 2
+    }
+  ],
+  "operating-volume": [
+    {
+      "operatingVolume": 20,
+      "unitId": 1,
+      "unitTitle": "متر",
+      "id": 1
+    },
+    {
+      "operatingVolume": 20,
+      "unitId": 1,
+      "id": 2
+    }
+  ],
+  "operating-units": [
+    {
+      "title": "متر",
+      "id": 1
+    },
+    {
+      "title": "سانتی متر",
+      "id": 2
+    },
+    {
+      "title": " میلی متر",
+      "id": 2
+    }
+  ],
+  "estimate-work-time": [
+    {
+      "minPerOperatingValue": 721,
+      "totalMin": 14420,
+      "id": 1
+    },
+    {
+      "minPerOperatingValue": 735,
+      "totalMin": 14700,
+      "id": 2
+    },
+    {
+      "minPerOperatingValue": 721,
+      "totalMin": 14420,
+      "id": 3
+    }
+  ],
+  "work-definition-title": [
+    {
+      "title": "دیوار چینی",
+      "id": 1
+    },
+    {
+      "title": "bbb",
+      "id": 2
+    },
+    {
+      "title": "tt",
+      "id": 3
+    },
+    {
+      "title": "jjj",
+      "id": 4
+    },
+    {
+      "title": "ggg",
+      "id": 5
+    },
+    {
+      "title": "fff",
+      "id": 6
+    }
+  ],
+  "work-definition-detail": [
+    {
+      "detailText": "دیوار چینی برای دیوار کناری",
+      "id": 1
+    },
+    {
+      "detailText": "ff",
+      "id": 2
+    }
+  ],
+  "selected-operational-unit": [
+    {
+      "unitId": 2,
+      "id": 1
+    },
+    {
+      "unitId": 6,
+      "id": 2
+    },
+    {
+      "unitId": 6,
+      "id": 3
+    },
+    {
+      "unitId": 7,
+      "id": 4
+    },
+    {
+      "unitId": 7,
+      "id": 5
+    },
+    {
+      "unitId": 7,
+      "id": 6
+    }
+  ],
+  "operational-unit": [
+    {
+      "title": "فپکو",
+      "id": 1,
+      "children": [
+        {
+          "title": "عمران",
+          "id": 2,
+          "children": [
+            {
+              "title": "سازه",
+              "id": 3,
+              "children": [
+                {
+                  "title": "اسکلت بندی",
+                  "id": 4,
+                  "children": [
+                    {
+                      "title": "جوش",
+                      "id": 5
+                    },
+                    {
+                      "title": "داربست",
+                      "id": 6
+                    }
+                  ]
+                },
+                {
+                  "title": "فونداسیون",
+                  "id": 7
+                }
+              ]
+            },
+            {
+              "title": "ساخت",
+              "id": 8
+            }
+          ]
+        },
+        {
+          "title": " اداری",
+          "id": 9
+        },
+        {
+          "title": " آی تی",
+          "id": 10
+        }
+      ]
+    }
+  ]
+}
